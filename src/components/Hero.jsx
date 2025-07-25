@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import heroImage from '../assets/copilot.png'
+import CopilotImg from '../assets/Copilot.png'
 
 
 const Hero = () => {
@@ -70,7 +70,7 @@ const Hero = () => {
       >
         <div className="relative">
           <img
-            src={heroImage}
+            src={CopilotImg}
             alt="Team meeting"
             className="rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300"
           />
